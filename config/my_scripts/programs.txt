@@ -11,6 +11,7 @@ alsa-utils
 go
 gtk2
 
+atom
 cowsay 
 dunst 
 feh 

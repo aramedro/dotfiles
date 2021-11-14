@@ -9,6 +9,7 @@ xorg
 alsa
 alsa-utils
 go
+gtk2
 
 cowsay 
 dunst 
@@ -24,6 +25,7 @@ keepassxc
 kitty
 lolcat 
 lxappearance-gtk3 
+libreoffice-still
 nautilus
 neofetch
 neovim
@@ -38,6 +40,7 @@ tar
 tmux 
 toilet
 tree-sitter
+spotify
 unrar 
 unzip 
 which 

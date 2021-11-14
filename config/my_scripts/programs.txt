@@ -19,6 +19,7 @@ fortune-mod
 gedit 
 gthumb
 htop 
+keepassxc
 kitty
 lolcat 
 lxappearance-gtk3 

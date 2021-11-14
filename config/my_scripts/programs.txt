@@ -14,6 +14,7 @@ cowsay
 dunst 
 feh 
 firefox
+fish
 flameshot 
 fortune-mod 
 gedit 
@@ -24,7 +25,8 @@ kitty
 lolcat 
 lxappearance-gtk3 
 nautilus
-neofetch 
+neofetch
+neovim
 p7zip  
 picom
 playerctl

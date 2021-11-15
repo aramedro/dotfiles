@@ -12,6 +12,7 @@ go
 gtk2
 
 atom
+anaconda
 cowsay 
 dunst 
 feh 

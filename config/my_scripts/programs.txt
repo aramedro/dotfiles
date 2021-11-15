@@ -40,7 +40,6 @@ sl
 tar 
 tmux 
 toilet
-thunderbird
 tree-sitter
 spotify
 unrar 

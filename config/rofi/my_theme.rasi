@@ -1,0 +1,72 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Something Found in the Internet
+ *
+ * User: Contributors
+ * Copyright: *!
+ */
+
+configuration {
+  drun-display-format: "{name}";
+  font: "Iosevka Nerd Font Medium 12";
+  modi: "drun,run,window";
+  sidebar-mode: false;
+  disable-history: false;
+}
+
+* {
+  bg: #282828;
+  bg-alt: #3f3a3c;
+  fg: #e6d6ac;
+  fg-alt: #e6d6ac;
+
+  background-color: @bg;
+  border: 0;
+  margin: 2;
+  padding: 0;
+  spacing: 0;
+}
+
+element, entry, prompt {
+  padding: 10;
+  text-color: @fg-alt;
+}
+
+element selected {
+  background-color: @bg-alt;
+  text-color: @fg-alt;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+inputbar {
+  children: [entry];
+}
+
+listview {
+  lines: 10;
+  scrollbar: true;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+scrollbar {
+  background-color: @fg-alt;
+  handle-color: @bg-alt;
+  padding: 3;
+  margin: 0 0 0 10;
+}
+
+window {
+  border: 0;
+  border-color: @fg-alt;
+  padding: 10;
+  transparency: "real";
+  fullscreen: true;
+}

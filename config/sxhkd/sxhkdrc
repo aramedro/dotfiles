@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -modi drun,window -show drun -columns 2 -theme zivoel_theme.rasi -font 'hack 15' -sidebar-mode
+	rofi -modi drun,window -show drun -columns 2 -theme my_theme.rasi -font 'hack 15' -sidebar-mode
 
 # make sxhkd reload its configuration files:
 super + t

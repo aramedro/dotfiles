@@ -42,7 +42,6 @@ tar
 tmux 
 toilet
 tree-sitter
-spotify
 unrar 
 unzip 
 which 

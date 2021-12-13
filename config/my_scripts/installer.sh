@@ -6,8 +6,8 @@ name=$(cat "$file")        #the output of 'cat $file' is assigned to the $name v
 
 cp -r $HOME/dotfiles/config/* ~/.config
 sudo pacman-mirrors --geoip && sudo pacman -Syyu
-sudo pacman -S --noconfirm yay               #test
-yay -S --noconfirm $name               #test
+sudo pacman -S --noconfirm --needed yay               #test
+yay -S --noconfirm --needed $name               #test
 sudo chmod +x ~/.config/bspwm/bspwmrc ~/.config/polybar/launch.sh ~/.config/sxhkd/sxhkdrc
 sudo chmod +x ~/.config/polybar/scripts/*
 

@@ -17,7 +17,6 @@ dunst
 feh 
 firefox
 fish
-freefilesync
 flameshot 
 fortune-mod 
 gedit 

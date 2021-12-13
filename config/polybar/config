@@ -31,7 +31,7 @@ line-color = #f00
 offset-y = 0
 offset-x = 0
 
-monitor = Virtual1 
+monitor = HDMI-1 
 
 
 font-0 = Pragmata Pro Mono:style=Bold:pixelsize=10;3
@@ -125,4 +125,34 @@ label-indicator-padding = 2
 label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
+
+[bar/bar2]
+
+override-redirect = false 
+wm-restack = bspwm
+bottom = false 
+background = ${colors.background}
+foreground = ${colors.foreground}
+fixed-center = true
+width = 100%
+height = 25
+radius = 0.0
+line-size = 0
+line-color = #f00
+offset-y = 0
+offset-x = 0
+
+monitor = VGA-1 
+
+
+font-0 = Pragmata Pro Mono:style=Bold:pixelsize=10;3
+
+modules-left = alsa 
+modules-right = network
+modules-center = bspwm
+
+tray-position = right 
+tray-padding = 5
+tray-background = ${colors.alt.background}
+
 
